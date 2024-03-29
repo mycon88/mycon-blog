@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function TermsCondition () {
   return (
-    <div className='m-5 text-center'>
+    <div>
+    <div className='m-5 p-5 text-center border rounded shadow' style={{width: 'auto', backgroundColor: '#f0f0f0'}}>
         <h1 className='pt-5 mb-5' style={{fontWeight: 'bold', fontSize: '40px'}}>Welcome to Mycon's Blog!</h1>
     <p className='pt-5 mb-5'>
     These terms and conditions outline the rules and regulations for the use of Mycon's blog.   
@@ -88,6 +89,7 @@ export default function TermsCondition () {
     <h2 className='pt-5 mb-5' style={{fontWeight: 'bold', fontSize: '20px'}}>Governing Law & Jurisdiction</h2>
     <p className='pt-5 mb-5' style={{textAlign: 'justify'}} >
     These Terms will be governed by and interpreted in accordance with the laws of the Republic of the Philippines, and you submit to the non-exclusive jurisdiction of the state and federal courts located in Republic of the Philippines for the resolution of any disputes.</p>
+    </div>
     </div>
   )
 }
